@@ -1,0 +1,20 @@
+#back {
+  position: fixed;
+  top: 70px;
+  left: 10px;
+  transform: rotate(-45deg);
+}
+#back a{
+  font: bold 40px "Microsoft Yahei",sans-serif;
+  text-decoration: none;
+  color: #222;
+  transition-duration: .5s;
+}
+#back a:hover {
+  color: rgb(187,187,187);
+}
+@media (min-width: 768px){
+  #back a{
+    font-size: 50px;
+  }
+}
